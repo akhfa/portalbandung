@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title>e-UKMI-Bandung</title>
+	<title>Portal E-Bandung</title>
 	<!-- Bootstrap -->
 	<link href="{{ asset('/css/bootstrap.min.css') }}" rel='stylesheet' type='text/css' />
 	<link href="{{ asset('/css/bootstrap.css') }}" rel='stylesheet' type='text/css' />
@@ -36,8 +36,9 @@
 			        <span class="icon-bar"></span>
 			        <span class="icon-bar"></span>
 			      </button>
-			      <a class="navbar-brand" href="index.html"><img src="{{ asset('/images/pemkot.png') }}" alt="" class="img-responsive" style="width:80px;"/> </a>
+			      <a class="navbar-brand" href="/home"><img src="{{ asset('/images/pemkot.png') }}" alt="" class="img-responsive" style="width:100px;"/> </a>
 			    </div>
+			    <h1 class="md-col4">Selamat Datang di Portal Aplikasi Bandung</h1>
 			    <!-- Collect the nav links, forms, and other content for toggling -->
 			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			      <ul class="menu nav navbar-nav navbar-right">
